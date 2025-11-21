@@ -546,7 +546,7 @@ const Portfolio = () => {
 
                     <div className={`mt-16 pt-8 border-t ${darkMode ? 'border-slate-800' : 'border-gray-200'}`}>
                         <p className={`text-sm ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>
-                            © {new Date().getFullYear()} {personalInfo.name}. Built with React & Tailwind CSS.
+                            © {new Date().getFullYear()} {personalInfo.name}.
                         </p>
                     </div>
                 </div>
